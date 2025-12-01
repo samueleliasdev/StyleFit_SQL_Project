@@ -13,13 +13,5 @@ Banco de dados relacional para o sistema de gestão de uma loja de roupas StyleF
 - `03_select_queries.sql` → Consultas SELECT com JOIN, WHERE, ORDER BY, LIMIT.
 - `04_update_delete.sql` → Comandos UPDATE e DELETE de exemplo.
 
-## Ordem de execução
-1. Execute `01_create_tables.sql` para criar o banco e tabelas.
-2. Execute `02_insert_data.sql` para popular o banco.
-3. Execute `03_select_queries.sql` para testar consultas.
-4. Execute `04_update_delete.sql` para testar atualização e exclusão de dados.
 
-## Observações
-- As chaves estrangeiras exigem que os dados sejam inseridos na ordem correta: 
-  - Fornecedor → Produto → Cliente → Estoque → Venda → ItemVenda
-- Utilize MySQL Workbench ou qualquer cliente compatível com MySQL.
+
